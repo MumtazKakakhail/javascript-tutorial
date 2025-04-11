@@ -1,3 +1,11 @@
 there are two types of data-types
 1- primitive data-types
+string
+number
+boolean
+null
+undefined
+bigInt
+symbol
 2-non-primitive data-types
+objects (arrays and functions)
