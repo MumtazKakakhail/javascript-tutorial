@@ -1,1 +1,4 @@
-// = is an assignment operator
+ = is an assignment operator
+var = variable can be re-declared and updated. A global scope variable.
+let = variable can not be re-declared but can be updated. A block scope variable.
+const = variable can not be re-declared or updated. A block scope variable.
