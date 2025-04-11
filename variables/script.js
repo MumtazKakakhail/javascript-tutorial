@@ -24,4 +24,15 @@ console.log(cnicNo);
 let z = 10; 
 z = 20; //reassign value
 z = 30; //reassign value
-console.log(z); 
+console.log(z);
+
+//as let is a block scope variable, it cannot be redeclared in the same scope
+{
+    let x = 20; //block scope variable
+    console.log(x); 
+}
+
+{
+    let x = 30; //block scope variable
+    console.log(x); 
+}
