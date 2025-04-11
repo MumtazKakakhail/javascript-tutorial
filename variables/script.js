@@ -20,3 +20,8 @@ console.log(age);
 //const     
 const cnicNo = 255655345565; //const = variable name
 console.log(cnicNo);
+
+let z = 10; 
+z = 20; //reassign value
+z = 30; //reassign value
+console.log(z); 
