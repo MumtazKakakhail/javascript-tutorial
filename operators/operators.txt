@@ -1,2 +1,20 @@
 Arithmatic Operators
 |+ , - , * , /
+
+modulus operator: %
+Exponentation: **
+//Unary Operators
+1-Increment: ++
+2-Decrement: --
+
+//Assignment Operators
+//use to assigin value
+//= , += , -= , *= , %= , **= , /=
+
+
+//Comparision Operators
+ ==,  Equal to
+ ===, Equal to & type
+ !=, Not Equal to
+ !===, not Equal to & type
+ >, >=, <, <=
