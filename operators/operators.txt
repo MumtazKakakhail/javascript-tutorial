@@ -18,3 +18,24 @@ Exponentation: **
  !=, Not Equal to
  !===, not Equal to & type
  >, >=, <, <=
+
+ //Logical Operators
+logical AND &&
+logical OR || 
+logical NOT !
+
+logical AND &&
+true && true = true
+true && false = false
+false && true = false
+false && false = false
+
+logical OR ||
+true || true = true
+true || false = true
+false || true = true
+false || false = false
+
+logical NOT !
+true = false
+false = true

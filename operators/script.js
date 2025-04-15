@@ -39,3 +39,34 @@ console.log("x =", x);
 
 //Comparision Operators
 // ==, ===, !=, !===, >, >=, <, <=
+let y = 3;
+z = 4;
+console.log("y == z", y == z);
+console.log("y != z", y != z);
+console.log("y === z", y === z);
+console.log("y !== z", y !== z);
+console.log("y > z", y > z);
+console.log("y >= z", y >= z);
+console.log("y < z", y < z);
+console.log("y <= z", y <= z);
+
+let m = 13; 
+k = "13";
+console.log(typeof m , typeof k);
+console.log("m = k", m == k);
+console.log("m === k", m === k);
+console.log("m != k", m != k);
+console.log("m !== k", m !== k);
+
+//Logical Operators
+//logical AND &&
+//logical OR || 
+//logical NOT !
+let r = 8;
+s = 6;
+let cond1 = r > s; //true
+let cond2 = r === 8; //true
+console.log("cond1 && cond2", cond1 && cond2);
+console.log("cond1 || cond2", cond1 || cond2);
+console.log("r < s || r === s", r < s || r === 8);
+console.log("!(r < s)", !(r < s));
