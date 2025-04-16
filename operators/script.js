@@ -70,3 +70,9 @@ console.log("cond1 && cond2", cond1 && cond2);
 console.log("cond1 || cond2", cond1 || cond2);
 console.log("r < s || r === s", r < s || r === 8);
 console.log("!(r < s)", !(r < s));
+
+
+//Ternary Operators
+let age = 25;
+let result = age >= 18? "adult" : "not adult";
+console.log(result);
