@@ -56,3 +56,36 @@ if (Mode === "dark") {
   Color = "red";
 }
 console.log(Color);
+
+//practice questions
+
+// alert( "hello");
+// prompt("hello!");
+// let name = prompt ("hello!");
+// console.log(name);
+
+let Num = prompt("Enter a number:");
+if (Num % 5 === 0) {
+    console.log(Num,"is multiple of 5");
+    
+} else {
+    console.log(Num,"is not multiple of 5");
+}
+
+
+let score = 85;
+let grade;
+if (score >= 80 && score <= 100) {
+    grade = "A+";
+} else if (score >= 70 && score <=79) {
+    grade = "A";
+} else if (score >= 60 && score <= 69) {
+    grade = "B";
+} else if (score >= 50 && score <= 59) {
+    grade = "C";
+}
+else if (score >= 40 && score <= 49) {
+    grade = "D";
+}
+console.log("According to your score your grade is",grade);
+    
