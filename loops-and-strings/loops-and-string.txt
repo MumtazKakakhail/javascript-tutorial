@@ -1,3 +1,8 @@
 loops
 loops are used to execute a piece of code again and again.
 1- for-loop
+2- infinite-loop => A loop that never ends.
+3- while-loop
+4- do-while loop
+5- for-of loop
+6- for-in loop
