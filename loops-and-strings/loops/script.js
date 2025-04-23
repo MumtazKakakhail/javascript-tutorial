@@ -16,44 +16,39 @@ console.log("sum =", sum);
 
 //while-loop
 let i = 1;
-while (i<=5) {
-    console.log("i =",i);
-    i++;
+while (i <= 5) {
+  console.log("i =", i);
+  i++;
 }
 
 //do-while loop
 let count = 1;
 do {
-    console.log("mumtaz =",count);
-    count++;
+  console.log("mumtaz =", count);
+  count++;
 } while (count < 5);
 
 //for-of loop
 let k = "mumtazkakakhail";
 for (let val of k) {
-    console.log("val=",val);
-    
+  console.log("val=", val);
 }
 
 let m = "mumtazkakakhail";
-let size=0;
+let size = 0;
 for (let val of m) {
-    console.log("val=",val);
-    size++;
+  console.log("val=", val);
+  size++;
 }
-console.log("size of m =",size);
+console.log("size of m =", size);
 
 //for-in loop
 let student = {
-    name: "Raza",
-    class: 12,
-    cgpa:4.5,
-    isPass:true,
-}
+  name: "Raza",
+  class: 12,
+  cgpa: 4.5,
+  isPass: true,
+};
 for (let key in student) {
-   console.log("key =", key, "value =", student[key]);
-   
-        
-    }
-
-    
+  console.log("key =", key, "value =", student[key]);
+}
