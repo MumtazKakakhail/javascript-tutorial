@@ -18,3 +18,13 @@ let output = `the cost of ${obj.item} is ${obj.price} rupees`;
 console.log(output);
 
 console.log("the cost of", obj.item, "is", obj.price, "rupees");
+
+
+//escape character \n => to give next line
+console.log("hello\nworld");
+console.log("hello\tworld");
+
+let name = "Mumtaz\nWali";
+console.log(name.length);
+
+
