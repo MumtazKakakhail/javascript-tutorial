@@ -52,3 +52,10 @@ let student = {
 for (let key in student) {
   console.log("key =", key, "value =", student[key]);
 }
+
+
+//practice Question
+// 1- print all even numbers from 0 to 100
+for (let num = 0; num <= 100; num++) {
+  console.log("num", num);
+}
