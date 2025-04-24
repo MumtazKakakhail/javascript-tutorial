@@ -6,3 +6,19 @@ loops are used to execute a piece of code again and again.
 4- do-while loop
 5- for-of loop
 6- for-in loop
+
+Strings
+String is a sequence of characters used to represent text.
+1- create String
+let str = "hello!";
+2- string length
+str.length
+3- string indices or index
+str[0],str[1],str[2]
+
+Template literals in  js 
+A way to have embadded expression in Strings
+`this is a template literal`
+String Interpolation
+To create string  by doing substitution of placeholders
+e:g: `string text ${expression} string text`
