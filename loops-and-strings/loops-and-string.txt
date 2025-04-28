@@ -28,3 +28,7 @@ There are built-in functions to manipluate a string.
 str.toUpperCase()
 str.toLowerCase()
 str.trim() => to remove whitespaces
+str.slice(start, end?) => return part of string
+str1.concat(str2) => join str2 with str1
+str.replace(searchVal, newVal)
+str.charAt(idx)
