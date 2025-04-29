@@ -1,2 +1,4 @@
 Arrays
 Arrays is a collection of items
+strings are immutable
+arrays are muteable
