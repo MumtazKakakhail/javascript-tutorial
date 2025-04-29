@@ -19,3 +19,4 @@ let cities = ["Gilgit", "Islamabad", "Lahore", "Karachi"];
 for (const city of cities) {
   console.log(city);
 }
+
