@@ -42,3 +42,17 @@ items[i] -= offer;
 }
 console.log(items);
 
+//Array Properties
+let fruitItems = ["mango", "banana", "apple", "orange", "waterlemon", "cherry"];
+//length
+console.log("length =",fruitItems.length);
+
+//Array methods
+//push
+fruitItems.push("graps");
+console.log("push :",fruitItems);
+
+//concat
+let newFruitItems = fruitItems.concat(["almond","pennut"]);
+console.log(newFruitItems);
+
