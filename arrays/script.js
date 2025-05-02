@@ -56,3 +56,29 @@ console.log("push :",fruitItems);
 let newFruitItems = fruitItems.concat(["almond","pennut"]);
 console.log(newFruitItems);
 
+//pop
+let lastItem = fruitItems.pop()
+console.log("pop:", fruitItems);
+console.log(lastItem);
+
+
+//unshift
+let subjects = ["maths","computer science","physics","english","urdu"];
+console.log(subjects);
+subjects.unshift("chemistry");
+console.log("unshift",subjects);
+
+
+//shift
+let firstElement = subjects.shift()
+console.log("shift",subjects);
+
+console.log("removed element", firstElement);
+
+let evenNum = [2,4,6,8,10];
+console.log(evenNum);
+console.log(evenNum.toString());
+console.log(evenNum);
+
+
+
