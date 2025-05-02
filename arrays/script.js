@@ -81,4 +81,25 @@ console.log(evenNum.toString());
 console.log(evenNum);
 
 
+//slice
+console.log("slice",fruitItems);
+console.log(fruitItems.slice(2,4));
+
+
+//splice
+let subject =  ["maths","computer science","physics","english","urdu"];
+subject.splice(1,0,"biology");
+console.log("splice",subject);
+
+
+//find 
+let alphabets = ["a","b","c","d","e","e","e","f"]
+let findAlphabet = alphabets.find((item) => item === "e");
+console.log("find:", findAlphabet);
+
+//filter
+let filterAlphabet = alphabets.filter((item) => item === "e");
+console.log("filter", filterAlphabet);
+
+
 
