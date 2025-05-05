@@ -37,3 +37,6 @@ function product(x , y) {
 }
 let val = product(7,9);
 console.log(val);
+
+
+//Arrow function

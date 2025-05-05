@@ -1,2 +1,5 @@
 Function
 Block of code that perform specific task, can be invoked whenever needed.
+
+Arrow functions
+It is a compact way of writing a function.
