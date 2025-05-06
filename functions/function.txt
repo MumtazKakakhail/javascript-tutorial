@@ -3,3 +3,7 @@ Block of code that perform specific task, can be invoked whenever needed.
 
 Arrow functions
 It is a compact way of writing a function.
+forEach
+
+map method:Create a new array with the results of some operations.The value
+its callBack returns are used to form new array.
