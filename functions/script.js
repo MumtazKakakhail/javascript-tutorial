@@ -1,4 +1,14 @@
 //Function definition
+// Function Declaration:
+function sayHi() {
+  console.log("Hi!");
+}
+// Function Expression:
+const sayHi = function() {
+  console.log("Hi!");
+};
+
+
 function myFunction() {
   console.log("Hello!");
 }
@@ -38,5 +48,13 @@ function product(x , y) {
 let val = product(7,9);
 console.log(val);
 
+function greet(name) {
+  console.log("Hello, " + name + "!");
+}
+
+greet("Ali");
 
 //Arrow function
+const sayHi = () => {
+  console.log("Hi!");
+};
