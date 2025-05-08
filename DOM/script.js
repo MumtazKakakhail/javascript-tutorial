@@ -33,3 +33,4 @@ console.log(selElement);
 console.dir(selElement);
 
 
+console.log(document.body.firstChild);
