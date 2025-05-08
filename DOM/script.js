@@ -14,3 +14,22 @@ let paras = document.getElementsByTagName("p");
 console.log(paras);
 console.dir(paras);
  
+
+//query selector
+let selEle = document.querySelector("P");
+console.log(selEle);
+console.dir(selEle);
+
+let allEle = document.querySelectorAll("P");
+console.log(allEle);
+console.dir(allEle);
+
+let selElem = document.querySelector(".para");
+console.log(selElem);
+console.dir(selElem);
+
+let selElement = document.querySelector("#btn");
+console.log(selElement);
+console.dir(selElement);
+
+
