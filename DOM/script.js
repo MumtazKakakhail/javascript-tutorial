@@ -8,12 +8,10 @@ let paragraph = document.getElementsByClassName("para");
 console.log(paragraph);
 console.dir(paragraph);
 
-
 //get element by tagname
 let paras = document.getElementsByTagName("p");
 console.log(paras);
 console.dir(paras);
- 
 
 //query selector
 let selEle = document.querySelector("P");
@@ -31,6 +29,5 @@ console.dir(selElem);
 let selElement = document.querySelector("#btn");
 console.log(selElement);
 console.dir(selElement);
-
 
 console.log(document.body.firstChild);
