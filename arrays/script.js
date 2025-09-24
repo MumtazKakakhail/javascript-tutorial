@@ -45,6 +45,7 @@ let fruitItems = ["mango", "banana", "apple", "orange", "waterlemon", "cherry"];
 //length
 console.log("length =", fruitItems.length);
 
+
 //Array methods
 //push
 fruitItems.push("graps");
