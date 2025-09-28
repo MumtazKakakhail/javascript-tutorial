@@ -94,4 +94,3 @@ console.log("find:", findAlphabet);
 //filter
 let filterAlphabet = alphabets.filter((item) => item === "e");
 console.log("filter", filterAlphabet);
-
